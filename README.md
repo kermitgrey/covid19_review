@@ -19,7 +19,7 @@
     <li> CDC annual mortality statistics encompassing all causes of deaths, 
          years 2015-2018 (Deaths2015.txt, Deaths2016.txt, Deaths2017.txt, 
          Deaths2018.txt) </li>
-    <li> USA Facts (.org) covid-19 case and death counts (retrieve directly
+    <li> USA Facts (.org) covid-19 case and death counts (retrieved directly
         by python). </li>
     </ul>
     
