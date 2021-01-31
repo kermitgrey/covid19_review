@@ -47,7 +47,7 @@
         <li> generateCovidDaily - This receives a file (from 6 below) and transforms 
              that file into a daily count of either cases or deaths and writes it 
              out to file.</li> 
-        <li> retrieveExternalData - This retrieves a couple of csv files from an 
+        <li> retrieveCovidData - This retrieves a couple of csv files from an 
              external website and calls the function (in 5 above) that transforms 
              those files into daily counts of confirmed cases or deaths.</li>
     </ol>
