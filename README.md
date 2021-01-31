@@ -69,4 +69,4 @@
     </ol>
     </ul>
 <p> Note: Please reference the Oracle Database Administrator's Guide for specifics on
-    needed setup steps prior to using Oracle's external tables functionality.</p>
+    needed setup steps prior to using Oracle's external table functionality.</p>
