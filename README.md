@@ -16,9 +16,6 @@
     <li> Census Bureau Geography Vintage 2018
          (all-geocodes-v2019.xlsx).</li>
     <li> Census Bureau Population Estimates 2019, (co-est2019-alldata.csv).</li>
-    <li> CDC annual mortality statistics encompassing all causes of deaths, 
-         years 2015-2018 (Deaths2015.txt, Deaths2016.txt, Deaths2017.txt, 
-         Deaths2018.txt) </li>
     <li> USA Facts (.org) covid-19 case and death counts (retrieved directly
         by python). </li>
     </ul>
@@ -41,9 +38,6 @@
              and creates an output file of state counties by fips code.</li>
         <li> generatePopData: This loads the file co-est2019-alldata.csv and 
              generates a output file of census population estimates for all counties.</li>
-        <li> generateDeathsData: This loads mortality files from the CDC that 
-             encompass all causes of deaths and generates one output file containing 
-             all the statistics for years 2015-2018.
         <li> generateCovidDaily - This receives a file (from 6 below) and transforms 
              that file into a daily count of either cases or deaths and writes it 
              out to file.</li> 
