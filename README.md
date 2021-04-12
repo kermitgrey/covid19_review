@@ -42,7 +42,7 @@
              that file into a daily count of either cases or deaths and writes it 
              out to file.</li> 
         <li> retrieveCovidData - This retrieves a couple of csv files from an 
-             external website and calls the function (in 5 above) that transforms 
+             external website and calls the function (in 4 above) that transforms 
              those files into daily counts of confirmed cases or deaths.</li>
     </ol>
     </ul>
