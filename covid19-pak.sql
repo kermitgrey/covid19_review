@@ -114,6 +114,7 @@ IS
 BEGIN
     
     EXECUTE IMMEDIATE 'ALTER TABLE cov_fipscounty DISABLE CONSTRAINT cov_fipscounty_stateid_FK';
+    EXECUTE IMMEDIATE 'ALTER TABLE cov_regionsdivisions DISABLE CONSTRAINT cov_statefips_FK';
     EXECUTE IMMEDIATE 'TRUNCATE TABLE cov_fipsstate';
     
 
@@ -128,6 +129,7 @@ BEGIN
     COMMIT;
     
     EXECUTE IMMEDIATE 'ALTER TABLE cov_fipscounty ENABLE CONSTRAINT cov_fipscounty_stateid_FK';
+    EXECUTE IMMEDIATE 'ALTER TABLE cov_regionsdivisions ENABLE CONSTRAINT cov_statefips_FK';
     
 EXCEPTION
     WHEN OTHERS THEN
