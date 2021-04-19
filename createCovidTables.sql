@@ -40,8 +40,9 @@ regionid               	NUMBER NOT NULL,
 divisionid              NUMBER NOT NULL,
 statefips               VARCHAR2(2 CHAR) NOT NULL,
 constraint cov_regdiv_PK Primary Key (regionid, divisionid, statefips),
-constraint cov_region_FK Foreign Key(regionid) references cov_regions,
-constraint cov_division_FK Foreign Key(divisionid) references cov_divisions
+constraint cov_region_FK Foreign Key(regionid) references cov_regions(region_id),
+constraint cov_division_FK Foreign Key(divisionid) references cov_divisions(division_id),
+CONSTRAINT cov_statefips_FK FOREIGN KEY(statefips) REFERENCES cov_fipsstate(statefips);
 );
 
 CREATE TABLE cov_census(
