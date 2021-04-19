@@ -38,11 +38,11 @@
              and creates an output file of state counties by fips code.</li>
         <li> generatePopData: This loads the file co-est2019-alldata.csv and 
              generates a output file of census population estimates for all counties.</li>
-        <li> generateCovidDaily - This receives a file (from 5 below) and transforms 
+        <li> generateCovidDaily - This receives a file (from v. below) and transforms 
              that file into a daily count of either cases or deaths and writes it 
              out to file.</li> 
         <li> retrieveCovidData - This retrieves a couple of csv files from an 
-             external website and calls the function (in 4 above) that transforms 
+             external website and calls the function (in iv. above) that transforms 
              those files into daily counts of confirmed cases or deaths.</li>
     </ol>
     </ul>
