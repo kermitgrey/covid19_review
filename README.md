@@ -55,7 +55,8 @@
         <li> createCovidTables.sql: This creates all the internal tables used to contain 
              the data created by the database package.  It also provides the external table
              definitions that support database query access to the data files forthcoming 
-             from the python code above.</li>
+             from the python code above.  The resulting data model is provided in the
+             file "Covid-Data-Model".</li>
         <li> createFactsView.sql: Generates a database view that brings together all the
              data contained in the individual internal tables.</li>
         <li> covid19-pak.sql: This generates a database package that contains all the
